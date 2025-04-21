@@ -1,0 +1,11 @@
+{
+  "branch-0.16": {
+    "Lines_of_code": 165085,
+    "Code_churn": 0,
+    "Logging_statements": 1144,
+    "Log_churn": 0,
+    "Pct_files_with_logging": 0.20135135135135135,
+    "Pct_files_pre_defects": 0.0,
+    "Pct_files_post_defects": null
+  }
+}

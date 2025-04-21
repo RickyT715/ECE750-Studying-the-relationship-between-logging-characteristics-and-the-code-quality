@@ -1,0 +1,60 @@
+{
+  "basic": {
+    "Lines_of_code": 220463,
+    "Code_churn_total": 109883,
+    "Logging_statements": 1647,
+    "Log_churn": 1429,
+    "Pct_files_with_logging": 21.0414,
+    "Pct_post_release_defects": 31.4559
+  },
+  "defect_density": {
+    "avg_post_with_log": 2.1374,
+    "avg_post_without_log": 2.9535,
+    "sig_post_density": true
+  },
+  "spearman_post": {
+    "LOGD": 0.1929,
+    "LEVELD": 0.1911,
+    "LOGADD": 0.2545,
+    "LOGDEL": 0.2557,
+    "FCOC": 0.2126,
+    "PRE": 0.3704,
+    "AVG_LOG_LEN": 0.2028,
+    "LOG_SPREAD": 0.2321,
+    "LOG_CODE_OWNERSHIP": 0.2727
+  },
+  "spearman_pp": {
+    "LOGD_LEVELD": 0.9812,
+    "LOGADD_FCOC": 0.6906,
+    "LOGDEL_FCOC": 0.5716,
+    "LOGADD_LOGDEL": 0.7432,
+    "AVGLOG_LEN__LOGD": 0.956,
+    "AVGLOG_LEN__SPREAD": 0.7107,
+    "SPREAD__LOGD": 0.7144,
+    "SPREAD__LEVELD": 0.7374,
+    "AVGLOG_LEN__LEVELD": 0.9438
+  },
+  "Table7": {
+    "Base_LOC": 4.3355,
+    "LOC_plus_PRODUCT": "4.77 (+10%)*",
+    "LOC_plus_ORIGINAL_PRODUCT": "4.61 (+6%)◊"
+  },
+  "Table8": {
+    "Base_TPCPRE": 10.3756,
+    "TPCPRE_plus_PROCESS": "10.75 (+4%)*",
+    "TPCPRE_plus_ORIGINAL_PROCESS": "10.63 (+2%)"
+  },
+  "Table9": {
+    "Base_LOC_TPCPRE": 10.7884,
+    "plus_PRODUCT": "10.91 (+1%)",
+    "plus_PROCESS": "11.11 (+3%)◊",
+    "plus_both": "11.13 (+3%)",
+    "plus_ORIGINAL_PRODUCT": "10.86 (+1%)",
+    "plus_ORIGINAL_PROCESS": "11.01 (+2%)",
+    "plus_ORIGINAL_BOTH": "11.03 (+2%)"
+  },
+  "original_effects": {
+    "Effect_ORIGINAL_PRODUCT": "0.0%",
+    "Effect_ORIGINAL_PROCESS": "0.0%"
+  }
+}
